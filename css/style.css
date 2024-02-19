@@ -1,0 +1,86 @@
+/* STYLE GENERICI */
+
+/* rest di style */
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+a{
+  text-decoration: none;
+}
+
+/* HEADER */
+
+.header-page{
+  background-color: rgba(108, 209, 243, 0.734);
+  padding: 30px 16px;
+}
+
+.header-img{
+  height: 50px;
+}
+
+/* MAIN */
+
+/* style main */
+.article-main{
+  padding: 37px 8px;
+}
+
+/* style article */
+.address-article{
+  font-size: 13px;
+  font-family: sans-serif;
+}
+
+.figure-article{
+  margin-top: 25px;
+}
+
+.img-article{
+  display: inline-block;
+  height: 214px;
+}
+
+.testo{
+  margin: 28px 0;
+}
+
+.list-text{
+  margin-left: 17px;
+}
+
+.table-article{
+  width: 100%;
+  margin-top: 18px;
+  text-align: left;
+}
+
+.tr-celle{
+  background-color: rgb(157, 157, 245);
+  color: white;
+}
+
+.color-td{
+  background-color: rgb(187, 228, 231);
+}
+
+
+.celle{
+  width: 25%;
+}
+
+.celle-testo{
+  width: 50%;
+}
+
+.footer-page{
+  background-color: blue;
+  color: white;
+  text-align: center;
+  font-size: 14px;
+  margin: 0 7px;
+  padding: 4px 0;
+}

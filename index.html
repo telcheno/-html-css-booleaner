@@ -3,11 +3,81 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./css/style.css">
   <title>The Booleaner</title>
 </head>
 <body>
-  <header></header>
-  <main></main>
-  
+
+  <!-- heder -->
+  <header class="header-page">
+    <img class="header-img" src="./img/logo.svg" alt="logo the booleaner">
+  </header>
+
+  <!-- main -->
+  <main class="main-page">
+
+    <!-- article del main -->
+    <!-- per il tag "article" semanticamente serve sempre un "title" -->
+    <article class="article-main">
+      <header>
+        <h1>Internet deve essere al servizio del "bene publico": il manifesto di Tim Bernaers-Lee</h1>
+
+        <p>
+          <!-- il tag "address" definisce la info del autore/proprietario e la info come e-mail, url, ecc.. -->
+          <address class="address-article">
+            Scerito da
+            <a href="#" class="link-article">The Booleaner</a>
+          </address>
+          <!-- al tag "time" serve il atributo "datatime" per dare il valore de la data scelta -->
+          il<time datetime="2020-10-10">10/10/2020</time>
+        </p>
+      </header>
+      <figure class="figure-article">
+        <img class="img-article" src="./img/tim-1.jpg" alt="Foto di Tim sul palco">
+        <img class="img-article" src="./img/tim-2.jpg" alt="Foro in primo piano di Tim">
+        <figcaption>1st Photo: Lorem ipsum dolor sit amet consectetur adipisicing elit.?</figcaption>
+        <figcaption>2st Photo: Lorem ipsum dolor sit.</figcaption>
+      </figure>
+
+      <!-- paragrafo article -->
+      <p class="testo">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam autem quis, rem ratione nihil veritatis. Sit, facere fuga optio, <mark> accusantium impedit repellat repudiandae facilis aliquam saepe odio,</mark> tempora labore! A.</p>
+
+      <ul class="list-text">
+        <li>Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt architecto optio quo est, deserunt aliquam. Sit, omnis quas.</li>
+        <li>Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt architecto optio quo est, deserunt aliquam. Sit, omnis quas.</li>
+        <li>Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt architecto optio quo est, deserunt aliquam. Sit, omnis quas.</li>
+      </ul>
+
+      <!-- tabela -->
+
+      <table class="table-article">
+          <tr class="tr-celle">
+            <th class="celle">Lorem, ipsum dolor.</th>
+            <th class="celle">Lorem, ipsum dolor.</th>
+            <th class="celle-testo">Lorem, ipsum dolor.</th>
+          </tr>
+          <tr class="color-td">
+            <td>Lorem, ipsum dolor.</td>
+            <td >Lorem, ipsum dolor.</td>
+            <td >Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum animi qui fugiat ipsam deleniti quidem dolore quasi voluptates illum placeat. Inventore illum!</td>
+          </tr>
+          <tr>
+            <td>Lorem, ipsum dolor.</td>
+            <td>Lorem, ipsum dolor.</td>
+            <td>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum animi qui fugiat ipsam deleniti quidem dolore quasi voluptates illum placeat. Inventore illum!</td>
+          </tr>
+          <tr class="color-td">
+            <td>Lorem, ipsum dolor.</td>
+            <td>Lorem, ipsum dolor.</td>
+            <td>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum animi qui fugiat ipsam deleniti quidem dolore quasi voluptates illum placeat. Inventore illum!</td>
+          </tr>
+      </table>
+    </article>
+  </main>
+
+  <!-- footer -->
+  <footer class="footer-page">
+    <p>Copyrigth The Booleaner - Titti i diritti riservati</p>
+  </footer>
 </body>
 </html>
